@@ -17,6 +17,7 @@ This Python script implements a stealth network scanner capable of performing SY
 
 ```bash
 python3 scanner.py <target_ip> [-p <ports>] [-d <number_of_decoys>] [-T<template>]
+```
 
 ## Arguments
 
@@ -39,7 +40,7 @@ python3 scanner.py <target_ip> [-p <ports>] [-d <number_of_decoys>] [-T<template
 ### Scan the top 10 ports of `192.168.1.1`:
 ```bash
 python3 scanner.py 192.168.1.1 -p top10
-
+```
 
 ## Dependencies
 
@@ -60,3 +61,8 @@ python3 scanner.py 192.168.1.1 -p top10
 - **Timing templates** influence the speed and stealth of the scan. Adjust them based on your needs and the target network.
 - **Using a large number of decoys** can increase the chance of your scan being detected by network intrusion detection systems.
 - **Filtered ports** may give false positives.
+
+## Disclaimer
+
+This script is provided for **educational purposes only**.  
+The author is **not responsible** for any misuse of this tool.
